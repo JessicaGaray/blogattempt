@@ -1,0 +1,68 @@
+html,body {
+    margin:0;
+    padding:0;
+}
+body{
+  background-color: #005C98;
+  font-family: 'Raleway', sans-serif;
+  background-image:url("https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0535/3579/rcorgi_pizza_mint_shop_preview.png");
+
+}
+h1{
+  font-family: 'Indie Flower', sans-serif;
+  font-size: 3em;
+  color:#005C98;
+}
+
+h2{
+  font-family: 'Indie Flower', sans-serif;
+  color:#005C98;
+  font-size: 2em;
+}
+p{
+  font-size: 1em;
+  padding: 15px;
+}
+.row.content {
+  height: 50%;
+}
+
+.sidenav1 {
+      background-color: #f1f1f1;
+      border-radius: 15px;
+      margin: 25px;
+      padding: 2em;
+      position: fixed;
+    }
+.sidenav2 {
+      background-color: #f1f1f1;
+      border-radius: 15px;
+      margin: 20px;
+      margin-right: 20px;
+      margin-bottom: 0.1em;
+      padding: 1em;
+      float: right;
+    }
+footer {
+          background-color: #555;
+          color: white;
+          padding: 15px;
+        }
+@media screen and (max-width: 767px) {
+
+      .sidenav1 {
+            background-color: #f1f1f1;
+            border-radius: 15px;
+            margin: 20px;
+            padding: 2em;
+            position: static;
+          }
+          .sidenav2 {
+                background-color: #f1f1f1;
+                border-radius: 15px;
+                margin: 20px;
+                margin-right: 20px;
+                margin-bottom: 0.1em;
+                padding: 1em;
+              }
+    }
